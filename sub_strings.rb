@@ -1,5 +1,4 @@
 def substrings(word, dictionary)
-    dictionary = dictionary
     sub_strings = Hash.new(0)
     k = word.length - 1
     while k > 0
@@ -11,5 +10,5 @@ def substrings(word, dictionary)
     sub_strings
 end
 
-#   dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-#   p substrings("below", dictionary)
+  dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+   p substrings("below", dictionary)
