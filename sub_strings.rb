@@ -10,5 +10,5 @@ def substrings(word, dictionary)
     sub_strings
 end
 
-  dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
-   p substrings("below", dictionary)
+#   dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+#    p substrings("below", dictionary)
